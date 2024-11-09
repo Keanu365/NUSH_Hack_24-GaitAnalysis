@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="phLogo.png" alt="GREAT!" id="logo">
+        <h1>GREAT!</h1>
+        <h2 class="head_h2">(Gait Recognition Engine for Amazing Timesaving!)</h2>
+    </header>
+    <div class="about">
+        <div class="a_element"><h3>What It's About</h3></div>
+        <div class="a_element"><p>The GREAT Software, carefully crafted by our professional team of programmers, takes input from webcams/CCTV cameras/almost any working camera and feeds it to our AI system which analyses the movement and determines whose gait it is. For now, a face recognition software is in place instead, as this is still a work in progress and more time is needed to train our AI models.</p></div>
+    </div>
+    <div class="demos">
+        <video width="640" height="360" controls><source src="Demo.mp4" type="video/mp4"></video>
+    </div>
+    <div class="vid_input">
+        <video autoplay id="video"></video>
+        <canvas style="display: none"></canvas>
+        <p id="recog_text">Please allow camera access!</p>
+        <p id="note">Note: System will currently only return "THET PAING MIN", "LUCAS WONG", "WONG KYLER", and "No person detected".</p>
+    </div>
+</body>
+<script src="node.js"></script>
+</html>

@@ -1,0 +1,93 @@
+body, h1, h2, h3, h4{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(rgba(14, 17, 22, 0.562),rgba(12, 20, 32, 0.594)),url("stylesfolder/headbg.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+#logo{
+    width:20%;
+    height: auto;
+}
+
+h1{
+    font-size:800%;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2600b1;
+}
+
+.head_h2{
+    font-size:325%;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #11204a;
+    margin-bottom: 1cm;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right,#120940dd, #5b45cbdd);
+}
+
+.a_element{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width:50%;
+    h3{
+        margin-left: 20px;
+        font-size:400%;
+        font-weight:normal;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: gray;
+    }
+    p{
+        margin-right:20px;
+        font-weight:lighter;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color:gray;
+    }
+}
+
+.demos{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.vid_input{
+    display:flex;
+    flex-direction:column;
+    align-items:center
+}
+
+#video{
+    margin-top: 1cm;
+    width: 30%;
+    height: auto;
+}
+
+#recog_text{
+    font-size: x-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#note{
+    font-size:medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
